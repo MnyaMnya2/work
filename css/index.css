@@ -15,14 +15,14 @@ html, body{
         background-color: rgba(255, 191, 255, 0.918);
         background-repeat: no-repeat;
         background-size:cover;
-        height: 1vmin;
+        height: 0.7vmin;
         width: 100%;
         text-align: center;
         font-size: 10em;
         margin: 0%;
-        padding-top: 2vw;
+        padding-top: 1.5vw;
         color: #ffffff8c;
-        padding-bottom: 4vw;
+        padding-bottom: 4vW;
     }
     #garis{
         width: 100vw;
@@ -30,7 +30,7 @@ html, body{
         background: #000;
     }
     #gambar{
-    background-image: url(../img/image\(4\).jpg);
+    background-image: url(../img/image\(6\).jpg);
     background-repeat: no-repeat;
     background-size: cover;
     line-height: 1.5;
@@ -68,8 +68,8 @@ html, body{
         color: #ff0000;
         text-align: center;
         background-image: url(../img/001\(1\)-modified.png);
-        height: 12vw;
-        width: 12vw;
+        height: 11.5vw;
+        width: 11.5vw;
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -133,10 +133,10 @@ html, body{
         }
       }
       header #imgl{
-        width: 16vw;
+        width: 14vw;
         float: left;
         margin-left: 2vw;
-        height: 6vmin;
+        height: 5vmin;
         padding-bottom: 10vmax;   
         }   
       header{
@@ -146,14 +146,64 @@ html, body{
         font-size: 3em;
         text-align: left;
        }
+      #judul{
+        color: #ff00c8;
+        padding-top: 7vmin;
+        font-size: 2em;
+        text-align: right;
+        padding-right: 2.5vw;
+      }
       #isi{
-        color: rgb(204, 0, 255);
-        width: 100vw;
-        text-align: left;
-        font-size: 3em;
-        margin-left: 3vw;
+        color: #ff9ce9;
+        padding-top: 7vmin;
+        font-size: 2em;
+        text-align: right;
+        padding-right: 2.5vw;
     }
-      
+      #isi2{
+        color: #FFF;
+        font-size: 1.7em;
+        text-align: right;
+        padding-right: 2.5vw;
+      }
+      #isi3{
+        color: #FFF;
+        font-size: 1.7em;
+        text-align: right;
+        padding-right: 2.5vw;
+        padding-bottom: 5vw;
+      }
+      footer{
+        background-color: rgba(255, 191, 255, 0.918);
+        background-size:cover;
+        color: #efefef;
+        width: 100%;
+        text-align:center ;
+        border: 0;
+        font-size: 3em;
+        height: 2vw;
+        background-repeat: no-repeat;
+        height: 0.7vmin;
+        margin: 0% !important;
+        padding-top: 2vw;
+        padding-bottom: 4vw;
+      }
+      footer #imga{
+        width: 5vmin;
+        margin: auto;
+        height: 5vmin;
+        padding-bottom: 5vmin;
+        float: right;
+        margin-right: 2vw;
+    }
+      footer #imgi{
+          width: 5vmin;
+          margin: auto;
+          height: 5vmin;
+          padding-bottom: 5vmin;
+          float: right;
+          margin-right: 2vw;
+    }
       
  
     
