@@ -186,13 +186,13 @@ html, body{
         height: 0.7vmin;
         margin: 0% !important;
         padding-top: 2vw;
-        padding-bottom: 4vw;
+        padding-bottom: 5vw;
       }
       footer #imga{
         width: 5vmin;
         margin: auto;
         height: 5vmin;
-        padding-bottom: 5vmin;
+        padding-top: 2vmin;
         float: right;
         margin-right: 2vw;
     }
@@ -200,49 +200,46 @@ html, body{
           width: 5vmin;
           margin: auto;
           height: 5vmin;
-          padding-bottom: 5vmin;
+          padding-top: 2vmin;
           float: right;
           margin-right: 2vw;
     }
     @media only screen and (max-width: 768px){
       header{
         height: 2vw;
-        padding-bottom: 5vw;
-        padding-top: 2.5vw;
+        padding-bottom: 7vw;
+        padding-top: 3vw;
       }
       header #imgl{
         width: 20vw;
         float: left;
         margin-left: 2vw;
-        height: 5vmin;
+        height: 4.5vmin;
         padding-bottom: 10vmax;   
         }  
       #judul{
-        font-size: 1.5em;
+        font-size: 1.7em;
       } 
       #isi{
-        font-size: 1.3em;
+        font-size: 1.5em;
       }
       #isi2{
-        font-size: 0.7em;
+        font-size: 1em;
       }
       #isi3{
-        font-size: 0.7em;
+        font-size: 1em;
+        padding-bottom: 15vw;
       }
       .loading h1 {
-        height: 50vw;
-        width: 50vw;
-        margin-right: 100vmax;
-        margin-bottom: 100vmax;
-        margin: auto;
+        height: 44vw;
+        width: 44vw;
         background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        display: flex;
-        margin: auto;
-        float: center;
-        margin: auto;
-        float: center;
+        display: block;
+        margin-left: -2vw;
+        margin-right: 5vw;
+        margin-bottom: 100%;
+        margin: -9vw;
+        margin-top: -16vw;
     }
       footer{
         font-size: 1.5em;
@@ -253,12 +250,14 @@ html, body{
         margin: auto;
         height: 7vmin;
         padding-right:5vmin ;
+        padding-bottom: 2vw;
       }
       footer #imga{
         width: 7vmin;
         margin: auto;
         height: 7vmin;
         padding-right: 5vmin;
+        padding-bottom: 2vw;
       }
   }
  
