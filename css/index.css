@@ -22,7 +22,7 @@ html, body{
         margin: 0%;
         padding-top: 1.5vw;
         color: #ffffff8c;
-        padding-bottom: 4vW;
+        padding-bottom: 4vw;
     }
     #garis{
         width: 100vw;
@@ -204,9 +204,63 @@ html, body{
           float: right;
           margin-right: 2vw;
     }
-      
+    @media only screen and (max-width: 768px){
+      header{
+        height: 2vw;
+        padding-bottom: 5vw;
+        padding-top: 2.5vw;
+      }
+      header #imgl{
+        width: 20vw;
+        float: left;
+        margin-left: 2vw;
+        height: 5vmin;
+        padding-bottom: 10vmax;   
+        }  
+      #judul{
+        font-size: 1.5em;
+      } 
+      #isi{
+        font-size: 1.3em;
+      }
+      #isi2{
+        font-size: 0.7em;
+      }
+      #isi3{
+        font-size: 0.7em;
+      }
+      .loading h1 {
+        height: 50vw;
+        width: 50vw;
+        margin-right: 100vmax;
+        margin-bottom: 100vmax;
+        margin: auto;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        margin: auto;
+        float: center;
+        margin: auto;
+        float: center;
+    }
+      footer{
+        font-size: 1.5em;
+        padding-bottom: 10vw;
+      }
+      footer #imgi{
+        width: 7vmin;
+        margin: auto;
+        height: 7vmin;
+        padding-right:5vmin ;
+      }
+      footer #imga{
+        width: 7vmin;
+        margin: auto;
+        height: 7vmin;
+        padding-right: 5vmin;
+      }
+  }
  
     
-
-   
 
