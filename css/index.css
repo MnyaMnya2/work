@@ -68,8 +68,8 @@ html, body{
         color: #ff0000;
         text-align: center;
         background-image: url(../img/001\(1\)-modified.png);
-        height: 16vw;
-        width: 16vw;
+        height: 15.5vw;
+        width: 15.5vw;
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -137,10 +137,10 @@ html, body{
         }
       }
       header #imgl{
-        width: 12vw;
+        width: 14vw;
         float: left;
         margin-left: 2vw;
-        height: 4vmin;
+        height: 5vmin;
         padding-bottom: 10vmax; }   
       #judul{
         color: #ff00c8cb;
@@ -148,6 +148,7 @@ html, body{
         text-align: right;
         padding-top: 1.5vw;
         padding-right: 2vw;
+        margin-top: 2VW;
        }
       #isi{
         color: #ff9ce9;
@@ -181,8 +182,8 @@ html, body{
         background-repeat: no-repeat;
         height: 0.7vmin;
         margin: 0% !important;
-        padding-top: 1.5vw;
-        padding-bottom: 4.9vw;
+        padding-top: 1vw;
+        padding-bottom: 4.8vw;
       }
       footer #imga{
         width: 5.5vmin;
@@ -202,20 +203,22 @@ html, body{
       }
     @media only screen and (max-width: 768px){
       header{
-        height: 2vw;
+        height: 4vw;
         padding-bottom: 4vw;
         padding-top: -1vw;
       }
       header #imgl{
-        width: 20vw;
+        width: 25vw;
         float: left;
         margin-left: 2vw;
-        height: 4.5vmin;
-        padding-bottom: 10vmax;   
+        height: 5vmin;
+        padding-bottom: 5vmax;  
+        margin-top: 0.5VW; 
         }  
         
       #judul{
         font-size: 2.1em;
+        margin-top: 5VW;
       } 
       #isi{
         font-size: 1.5em;
@@ -237,22 +240,52 @@ html, body{
         margin-bottom: 100%;
         margin: -9vw;
         margin-top: -16vw;
-    }
+      }
+      .loading .color1 {
+        border-color: #000000;
+        width: 47.5vw;
+        height: 47.5vw;
+        margin-top: 1vw;
+      }
+    
+      .loading .color2 {
+        border-color: #b004ff;
+        width: 51vw;
+        height: 51vw;
+        animation-delay: 0.2s;
+        margin-top: 1vw;
+      }
+    
+      .loading .color3 {
+        border-color: #ffffff;
+        width: 54.5vw;
+        height: 54.5vw;
+        animation-delay: 0.4s;
+        margin-top: 1vw;
+      }
+    
+      .loading .color4 {
+        border-color: #ff93f6;
+        width: 58.2vw;
+        height: 58.2vw;
+        animation-delay: 0.6s;
+        margin-top: 1vw;
+      }
       footer{
         font-size: 1.5em;
         padding-bottom: 10vw;
       }
       footer #imgi{
-        width: 7vmin;
+        width: 6vmin;
         margin: auto;
-        height: 7vmin;
+        height: 6vmin;
         padding-right:5vmin ;
         padding-bottom: 2vw;
       }
       footer #imga{
-        width: 7vmin;
+        width: 6vmin;
         margin: auto;
-        height: 7vmin;
+        height: 6vmin;
         padding-right: 5vmin;
         padding-bottom: 2vw;
       }
