@@ -68,8 +68,8 @@ html, body{
         color: #ff0000;
         text-align: center;
         background-image: url(../img/001\(1\)-modified.png);
-        height: 11.5vw;
-        width: 11.5vw;
+        height: 16vw;
+        width: 16vw;
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -92,34 +92,38 @@ html, body{
         top: 24%;
         left: 50%;
         transform: translate(-50%, -50%);
-        animation: rounds 2s infinite;
+        animation: rounds 2s infinite;  
       }
       
       .loading .color1 {
         border-color: #000000;
-        width: 220px;
-        height: 220px;
+        width: 16.5vw;
+        height: 16.5vw;
+        margin-top: 2vw;
       }
       
       .loading .color2 {
         border-color: #b004ff;
-        width: 200px;
-        height: 200px;
-        animation-delay: 0.2s
+        width: 17.4vw;
+        height: 17.4vw;
+        animation-delay: 0.2s;
+        margin-top: 2vw;
       }
       
       .loading .color3 {
         border-color: #ffffff;
-        width: 180px;
-        height: 180px;
-        animation-delay: 0.4s
+        width: 18vw;
+        height: 18vw;
+        animation-delay: 0.4s;
+        margin-top: 2vw;
       }
       
       .loading .color4 {
         border-color: #ff93f6;
-        width: 160px;
-        height: 160px;
-        animation-delay: 0.6s
+        width: 18.9vw;
+        height: 18.9vw;
+        animation-delay: 0.6s;
+        margin-top: 2vw;
       }
       @keyframes rounds {
         0% {
@@ -133,10 +137,10 @@ html, body{
         }
       }
       header #imgl{
-        width: 14vw;
+        width: 12vw;
         float: left;
         margin-left: 2vw;
-        height: 5vmin;
+        height: 4vmin;
         padding-bottom: 10vmax; }   
       #judul{
         color: #ff00c8cb;
